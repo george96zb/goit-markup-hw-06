@@ -310,7 +310,7 @@
     <!-- Portfolio footer -->
     <footer class="project-footer">
       <div class="container footer-container">
-        <div>
+        <div class="footer-contacts-container">
           <a class="footer-logo link" href="./index.html"><span class="accent">Web</span>Studio</a>
           <address>
             <ul class="footer-list list">
@@ -326,7 +326,7 @@
             </ul>
           </address>
         </div>
-        <div>
+        <div class="footer-icons-container">
           <h2 class="footer-subtitle">Приєднуйтесь</h2>
           <ul class="footer-socials list">
             <li class="socials-item">
@@ -382,6 +382,30 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div>
+          <form class="footer-form" autocomplete="on">
+            <label class="footer-email" for="footer-email">
+              <strong>Підпишіться на розсилку</strong>
+            </label>
+            <div class="email-form">
+              <input
+                class="footer-label"
+                type="email"
+                name="email"
+                id="footer-email"
+                placeholder="E-mail"
+              />
+              <div>
+                <button class="telegram-button" type="submit">
+                  Підписатися
+                  <svg class="tg-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
